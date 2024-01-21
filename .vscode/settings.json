@@ -1,9 +1,9 @@
 {
   "files.exclude": {
     "**/.git": true,
-    // "**/.g8": true,
+    "**/.g8": true,
     "**/project/project/": true,
-    // "**/project/target/": true,
+    "**/project/target/": true,
     "**/baeldung-play-framework/target/": true
   },
   "files.watcherExclude": {
