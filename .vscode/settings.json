@@ -5,5 +5,8 @@
     "**/project/project/": true,
     "**/project/target/": true,
     "**/baeldung-play-framework/target/": true
+  },
+  "files.watcherExclude": {
+    "**/target": true
   }
 }
