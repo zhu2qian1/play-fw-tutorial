@@ -20,6 +20,13 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
     Ok(views.html.index())
   }
 
+  /** Create an Action to render the sum page.
+    *
+    * @param first
+    *   the first number to add.
+    * @param second
+    *   the second number to add.
+    */
   def printSum(first: Long, second: Long) = Action {
     implicit request: Request[AnyContent] =>
       val sum = first + second
