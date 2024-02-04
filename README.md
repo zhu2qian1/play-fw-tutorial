@@ -9,5 +9,3 @@ Reference: [Introduction to the Play](https://www.baeldung.com/scala/play-framew
 - coursier
 - sbt
 - SDKMAN!
-
-## Environment setup
