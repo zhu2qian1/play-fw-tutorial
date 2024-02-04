@@ -1,0 +1,14 @@
+{
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": ["*.html"],
+      "options": {
+        "parser": "html",
+        "bracketSameLine": false,
+        "useTabs": false,
+        "singleAttributePerLine": false
+      }
+    }
+  ]
+}
